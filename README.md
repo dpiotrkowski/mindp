@@ -4,6 +4,17 @@
 
 It is designed for data-centric browser automation rather than end-to-end testing: logging into sites, extracting structured data, driving real browser flows, detecting HLS streams, and recording browser-discovered media with a minimal dependency footprint.
 
+Search terms: Go browser automation, Go CDP library, Chromium automation for Go, scraping with Go and Chrome DevTools Protocol, stealth browser automation in Go, HLS detection and recording in Go, headless and headful Chromium control.
+
+## Use Cases
+
+- authenticated scraping and data extraction
+- login flows and browser-controlled form automation
+- Chromium CDP scripting in Go without a large framework
+- stealth-aware browser automation for data collection
+- HLS manifest detection and `ffmpeg` recording
+- side-channel HTTP work that stays aligned with the active browser persona
+
 ## Design Goals
 
 - zero external Go module dependencies
